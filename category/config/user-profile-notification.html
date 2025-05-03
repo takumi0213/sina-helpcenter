@@ -1,0 +1,194 @@
+
+
+<!DOCTYPE html>
+
+<html lang="ja" dir="ltr">
+<head>
+  <meta charset="utf-8">
+
+  
+  <title>ユーザープロファイル作成時の通知 - 思惟奈ちゃんヘルプセンター</title>
+  
+
+  
+  <meta property="og:title"  content="ユーザープロファイル作成時の通知 - 思惟奈ちゃんヘルプセンター" />
+  <meta name="twitter:title" content="ユーザープロファイル作成時の通知 - 思惟奈ちゃんヘルプセンター">
+  
+
+  
+  <meta name="description"         content="Discordボット 思惟奈ちゃんのヘルプセンターです。何か不具合が発生した場合や、お困りの際にご利用ください。" />
+  <meta name="twitter:description" content="Discordボット 思惟奈ちゃんのヘルプセンターです。何か不具合が発生した場合や、お困りの際にご利用ください。" />
+  <meta property="og:description"  content="Discordボット 思惟奈ちゃんのヘルプセンターです。何か不具合が発生した場合や、お困りの際にご利用ください。" />
+  
+  <link rel="stylesheet" href="/assets/css/metro-all.min.css">
+  
+  <link rel="stylesheet" href="/assets/css/article.css?v=2" />
+  <link rel="stylesheet" href="/assets/css/alert.css" />
+  
+  <link rel="stylesheet" href="/assets/css/common.css?v=5">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" href="/assets/img/icon.png">
+
+  <meta property="og:url"       content="https://help.sina-chan.com/category/config/user-profile-notification" />
+  <meta property="og:site_name" content="思惟奈ちゃんヘルプセンター" />
+  <meta property="og:type"      content="website" />
+  <meta property="og:locale"    content="ja_JP"   />
+
+  <!-- Twitter Card (Static) -->
+  <meta name="twitter:site"  content="@sina_chan_dbot" />
+  <meta name="msapplication-TileColor" content="#1AC0AA">
+  <meta name="theme-color"             content="#1AC0AA">
+</head>
+<script src="/assets/js/simple-jekyll-search.js"></script>
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('result-list'),
+  json: '/search.json',
+  searchResultTemplate: '<div class="search-item"><a href="https://help.sina-chan.com{url}">{title}</a></div>',
+  noResultsText: '<h5>検索結果が見つかりませんでした。</h5>',
+  limit:20,
+})
+</script>
+<script src="/assets/js/metro.min.js"></script>
+<script src="/assets/js/top.js"></script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MGRVFHJV');</script>
+<!-- End Google Tag Manager -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YFS81QWYPR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YFS81QWYPR');
+</script>
+<script src="https://www.google.com/recaptcha/enterprise.js?render=6LeEPLYkAAAAAOvI3mUNkxS7CCC1nzgr9UWAfCbg"></script>
+<script>
+  function onClick(e) {
+    e.preventDefault();
+    grecaptcha.enterprise.ready(async () => {
+      const token = await grecaptcha.enterprise.execute('6LeEPLYkAAAAAOvI3mUNkxS7CCC1nzgr9UWAfCbg', {action: 'LOGIN'});
+      // IMPORTANT: The 'token' that results from execute is an encrypted response sent by
+      // reCAPTCHA Enterprise to the end user's browser.
+      // This token must be validated by creating an assessment.
+      // See https://cloud.google.com/recaptcha-enterprise/docs/create-assessment
+    });
+  }
+</script>
+
+<body>
+    <div data-role="appbar" class="navbar">
+    <a href="/" class="header-logo brand no-hover">
+        <img src="/assets/img/sinalogo.png" alt="ヘルプセンター" width="130" height="30">ヘルプセンター</a>
+    <a href="https://support.center..sina-chan.com" class="brand ml-auto">サポートセンター</a>
+</div>
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGRVFHJV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    
+    <ul class="breadcrumbs">
+        <li class="page-item"><a href="/" class="page-link">ヘルプセンター</a></li>
+        <li class="page-item"><a href="/category" class="page-link">カテゴリ一覧</a></li>
+        <li class="page-item"><a href="/category/config" class="page-link">config</a></li>
+        <li class="page-item"><a href="#" class="page-link"></a></li>
+    </ul>
+
+    <section class="main_article">
+        <h1>ユーザープロファイル作成時の通知</h1>
+        <p>config | 2024/4/08</p>
+        <hr>
+        <div class="main_article_content">
+            <p>思惟奈ちゃんが導入されているサーバーで、初めて思惟奈ちゃんを利用したユーザーは思惟奈ちゃんのシステムにユーザープロフィールを作成し、作成した旨を通知するようになっています。</p>
+
+<p>これらに関しては、通知のオン・オフが可能です。(既定値: オン)</p>
+
+<blockquote>
+  <p>コマンド実行には設定するサーバーにおけるサーバー管理権限が必要です。(caution)</p>
+</blockquote>
+
+<h2 id="1-通知をオフにする">1. 通知をオフにする</h2>
+
+<picture><source srcset="/assets/img/generator/disable-profile-notifi-400-94c384dcd.webp 400w, /assets/img/generator/disable-profile-notifi-600-94c384dcd.webp 600w, /assets/img/generator/disable-profile-notifi-800-94c384dcd.webp 800w, /assets/img/generator/disable-profile-notifi-1000-94c384dcd.webp 1000w" type="image/webp" /><source srcset="/assets/img/generator/disable-profile-notifi-400-2e8c6670c.jpg 400w, /assets/img/generator/disable-profile-notifi-600-2e8c6670c.jpg 600w, /assets/img/generator/disable-profile-notifi-800-2e8c6670c.jpg 800w, /assets/img/generator/disable-profile-notifi-1000-2e8c6670c.jpg 1000w" type="image/jpeg" /><img src="/assets/img/generator/disable-profile-notifi-800-2e8c6670c.jpg" /></picture>
+
+<p><code class="language-plaintext highlighter-rouge">/comlock</code>の<code class="language-plaintext highlighter-rouge">add</code>オプションを使用し、<code class="language-plaintext highlighter-rouge">disable_profile_msg</code>を利用制限対象に追加してください。</p>
+
+<p>コマンドを実行すると以下スクリーンショットにあるメッセージが送信され、ユーザープロファイルの作成通知が停止されます。</p>
+
+<picture><source srcset="/assets/img/generator/comlock-view-400-04af620a2.webp 400w, /assets/img/generator/comlock-view-600-04af620a2.webp 600w, /assets/img/generator/comlock-view-800-04af620a2.webp 800w, /assets/img/generator/comlock-view-974-04af620a2.webp 974w" type="image/webp" /><source srcset="/assets/img/generator/comlock-view-400-75ef38386.jpg 400w, /assets/img/generator/comlock-view-600-75ef38386.jpg 600w, /assets/img/generator/comlock-view-800-75ef38386.jpg 800w, /assets/img/generator/comlock-view-974-75ef38386.jpg 974w" type="image/jpeg" /><img src="/assets/img/generator/comlock-view-800-75ef38386.jpg" /></picture>
+
+<p>設定完了後、<code class="language-plaintext highlighter-rouge">/comlock</code>の<code class="language-plaintext highlighter-rouge">view</code>オプションを使用することにより、設定状況が確認できます。</p>
+
+<p>なお、この際は<code class="language-plaintext highlighter-rouge">comname</code>オプションは不要です。</p>
+
+<picture><source srcset="/assets/img/generator/comlock-disable-profile-notifi-400-9956cfba6.webp 400w, /assets/img/generator/comlock-disable-profile-notifi-600-9956cfba6.webp 600w, /assets/img/generator/comlock-disable-profile-notifi-800-9956cfba6.webp 800w, /assets/img/generator/comlock-disable-profile-notifi-1000-9956cfba6.webp 1000w" type="image/webp" /><source srcset="/assets/img/generator/comlock-disable-profile-notifi-400-d39ec1191.jpg 400w, /assets/img/generator/comlock-disable-profile-notifi-600-d39ec1191.jpg 600w, /assets/img/generator/comlock-disable-profile-notifi-800-d39ec1191.jpg 800w, /assets/img/generator/comlock-disable-profile-notifi-1000-d39ec1191.jpg 1000w" type="image/jpeg" /><img src="/assets/img/generator/comlock-disable-profile-notifi-800-d39ec1191.jpg" /></picture>
+
+<h2 id="2-通知をオンにする">2. 通知をオンにする</h2>
+
+<picture><source srcset="/assets/img/generator/enable-profile-notifi-400-fd72c6f2b.webp 400w, /assets/img/generator/enable-profile-notifi-600-fd72c6f2b.webp 600w, /assets/img/generator/enable-profile-notifi-800-fd72c6f2b.webp 800w, /assets/img/generator/enable-profile-notifi-984-fd72c6f2b.webp 984w" type="image/webp" /><source srcset="/assets/img/generator/enable-profile-notifi-400-ac53567b5.jpg 400w, /assets/img/generator/enable-profile-notifi-600-ac53567b5.jpg 600w, /assets/img/generator/enable-profile-notifi-800-ac53567b5.jpg 800w, /assets/img/generator/enable-profile-notifi-984-ac53567b5.jpg 984w" type="image/jpeg" /><img src="/assets/img/generator/enable-profile-notifi-800-ac53567b5.jpg" /></picture>
+
+<p><code class="language-plaintext highlighter-rouge">/comlock</code>の<code class="language-plaintext highlighter-rouge">del</code>オプションを使用し、<code class="language-plaintext highlighter-rouge">disable_profile_msg</code>を利用制限対象から削除してください。</p>
+
+<p>コマンドを実行するとユーザープロファイルの作成通知が再開されます。</p>
+
+<picture><source srcset="/assets/img/generator/comlock-none-400-00fbf1dc6.webp 400w, /assets/img/generator/comlock-none-600-00fbf1dc6.webp 600w, /assets/img/generator/comlock-none-800-00fbf1dc6.webp 800w, /assets/img/generator/comlock-none-1000-00fbf1dc6.webp 1000w" type="image/webp" /><source srcset="/assets/img/generator/comlock-none-400-9758b07cd.jpg 400w, /assets/img/generator/comlock-none-600-9758b07cd.jpg 600w, /assets/img/generator/comlock-none-800-9758b07cd.jpg 800w, /assets/img/generator/comlock-none-1000-9758b07cd.jpg 1000w" type="image/jpeg" /><img src="/assets/img/generator/comlock-none-800-9758b07cd.jpg" /></picture>
+
+<p>設定完了後、<code class="language-plaintext highlighter-rouge">/comlock</code>の<code class="language-plaintext highlighter-rouge">view</code>オプションを使用し、上記の状態になっていれば問題ありません。</p>
+
+        </div>
+        <hr>
+        <h4>解決しなかった時は...</h4>
+        <p>他の記事を検索するもしくは<a href="https://support.center.sina-chan.com">サポートセンター</a>をご利用ください。<br>障害・メンテナンスの情報は<a href="https://status.sina-chan.com">ステータスページ</a>にてご確認ください。</p>
+        <hr>
+        <h4>コメントを残す</h4>
+        <script src="https://giscus.app/client.js"
+            data-repo="SInaKitagami/sina-helpcenter"
+            data-repo-id="R_kgDOIplNjg"
+            data-category="チャット"
+            data-category-id="DIC_kwDOIplNjs4CTYyE"
+            data-mapping="title"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="light_tritanopia"
+            data-lang="ja"
+            crossorigin="anonymous"
+            async
+        >
+        </script>
+    </section>
+    <div class="spacer" style="height:100px;"></div>
+
+<hr>
+<footer>
+    <div class="row flex-align-center">
+        <div class="cell-md-5 text-center-md text-left">
+            <ul class="inline-list reduce-2">
+                <li>© 2020-2023, Team Sina. | Last Build: 44f5f20</li>
+            </ul>
+        </div>
+        <div class="cell-md-2 text-center">
+            <div>
+                <a href="" class="no-decor"><img src="/assets/img/sinalogo.png" alt="思惟奈ちゃんヘルプセンター" width="130" height="30"></a>
+            </div>
+        </div>
+        <div class="cell-md-5 text-center-md text-left">
+            <ul class="inline-list reduce-2">
+                <li><a href="https://home.sina-chan.com">公式サイト</a></li>
+                <li><a href="https://home.sina-chan.com/discord">サポートサーバー</a></li>
+                <li><a href="https://home.sina-chan.com/legal">各種規約</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

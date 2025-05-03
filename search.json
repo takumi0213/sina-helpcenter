@@ -1,0 +1,571 @@
+[
+  
+    {
+      "title"    : "Version 4.0.1",
+      "category" : "update-note",
+      "tags"     : "",
+      "url"      : "/category/update-note/v4.0.1",
+      "date"     : "2025-05-01 16:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Update Note公開のお知らせ",
+      "category" : "notice",
+      "tags"     : "",
+      "url"      : "/category/notice/update-note",
+      "date"     : "2025-05-01 14:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Version 4.0.0",
+      "category" : "update-note",
+      "tags"     : "",
+      "url"      : "/category/update-note/v4.0.0",
+      "date"     : "2025-04-20 10:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "OpenSSHの脆弱性(CVE-2024-6387)に関して",
+      "category" : "notice",
+      "tags"     : "",
+      "url"      : "/category/notice/openssh-cve",
+      "date"     : "2024-07-03 14:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - レベルカード",
+      "category" : "cmd-level",
+      "tags"     : "",
+      "url"      : "/category/cmd-level/level-card",
+      "date"     : "2024-05-08 01:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - ボリューム調整",
+      "category" : "cmd-music",
+      "tags"     : "",
+      "url"      : "/category/cmd-music/volume",
+      "date"     : "2024-04-12 02:20:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - スキップ",
+      "category" : "cmd-music",
+      "tags"     : "",
+      "url"      : "/category/cmd-music/skip",
+      "date"     : "2024-04-12 02:15:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - 再生キューのシャッフル",
+      "category" : "cmd-music",
+      "tags"     : "",
+      "url"      : "/category/cmd-music/shuffle",
+      "date"     : "2024-04-12 02:10:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - 再生キューから項目の削除",
+      "category" : "cmd-music",
+      "tags"     : "",
+      "url"      : "/category/cmd-music/remove",
+      "date"     : "2024-04-12 02:05:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - 再生キューの確認",
+      "category" : "cmd-music",
+      "tags"     : "",
+      "url"      : "/category/cmd-music/queue",
+      "date"     : "2024-04-12 02:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - プレイリストから項目を削除",
+      "category" : "cmd-music",
+      "tags"     : "",
+      "url"      : "/category/cmd-music/playlist-remove",
+      "date"     : "2024-04-12 01:55:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - 再生キューの音楽をプレイリストに追加",
+      "category" : "cmd-music",
+      "tags"     : "",
+      "url"      : "/category/cmd-music/playlist-queue",
+      "date"     : "2024-04-12 01:50:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - プレイリスト削除",
+      "category" : "cmd-music",
+      "tags"     : "",
+      "url"      : "/category/cmd-music/playlist-delete",
+      "date"     : "2024-04-12 01:45:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - プレイリストの確認",
+      "category" : "cmd-music",
+      "tags"     : "",
+      "url"      : "/category/cmd-music/playlist-check",
+      "date"     : "2024-04-12 01:40:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - プレイリストへの追加",
+      "category" : "cmd-music",
+      "tags"     : "",
+      "url"      : "/category/cmd-music/playlist-add",
+      "date"     : "2024-04-12 01:35:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - 再生中の音楽の情報",
+      "category" : "cmd-music",
+      "tags"     : "",
+      "url"      : "/category/cmd-music/playingmusic",
+      "date"     : "2024-04-12 01:30:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - 一時停止",
+      "category" : "cmd-music",
+      "tags"     : "",
+      "url"      : "/category/cmd-music/pause",
+      "date"     : "2024-04-12 01:25:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - 操作パネルの更新・再生成",
+      "category" : "cmd-music",
+      "tags"     : "",
+      "url"      : "/category/cmd-music/panel-update",
+      "date"     : "2024-04-12 01:20:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - 操作パネルの移動",
+      "category" : "cmd-music",
+      "tags"     : "",
+      "url"      : "/category/cmd-music/move-panel",
+      "date"     : "2024-04-12 01:15:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - 音楽停止",
+      "category" : "cmd-music",
+      "tags"     : "",
+      "url"      : "/category/cmd-music/stop",
+      "date"     : "2024-04-12 01:10:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - ボイスチャンネルへの接続",
+      "category" : "cmd-music",
+      "tags"     : "",
+      "url"      : "/category/cmd-music/join",
+      "date"     : "2024-04-12 01:10:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - 音楽再生",
+      "category" : "cmd-music",
+      "tags"     : "",
+      "url"      : "/category/cmd-music/play",
+      "date"     : "2024-04-12 01:05:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - ループ設定",
+      "category" : "cmd-music",
+      "tags"     : "",
+      "url"      : "/category/cmd-music/loop-config",
+      "date"     : "2024-04-12 01:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - ループ状態確認",
+      "category" : "cmd-music",
+      "tags"     : "",
+      "url"      : "/category/cmd-music/loop-check",
+      "date"     : "2024-04-11 06:05:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - 音楽再生",
+      "category" : "help-command",
+      "tags"     : "",
+      "url"      : "/category/help-command/music",
+      "date"     : "2024-04-11 06:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - ボイス・ステージチャンネルへの接続",
+      "category" : "cmd-music",
+      "tags"     : "",
+      "url"      : "/category/cmd-music/connect",
+      "date"     : "2024-04-11 06:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - ミニゲーム",
+      "category" : "help-command",
+      "tags"     : "",
+      "url"      : "/category/help-command/minigame",
+      "date"     : "2024-04-11 05:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - グローバルチャット",
+      "category" : "help-command",
+      "tags"     : "",
+      "url"      : "/category/help-command/globalchat",
+      "date"     : "2024-04-11 05:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - WORK IN PROGRESS",
+      "category" : "cmd-search",
+      "tags"     : "",
+      "url"      : "/category/cmd-search/work-in-progress",
+      "date"     : "2024-04-11 05:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - WORK IN PROGRESS",
+      "category" : "cmd-rolepanel",
+      "tags"     : "",
+      "url"      : "/category/cmd-rolepanel/work-in-progress",
+      "date"     : "2024-04-11 05:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - WORK IN PROGRESS",
+      "category" : "cmd-reminder",
+      "tags"     : "",
+      "url"      : "/category/cmd-reminder/work-in-progress",
+      "date"     : "2024-04-11 05:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - WORK IN PROGRESS",
+      "category" : "cmd-other",
+      "tags"     : "",
+      "url"      : "/category/cmd-other/work-in-progress",
+      "date"     : "2024-04-11 05:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - Music Activity Viewer",
+      "category" : "cmd-music",
+      "tags"     : "",
+      "url"      : "/category/cmd-music/mav",
+      "date"     : "2024-04-11 05:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - 接続チャンネル確認",
+      "category" : "cmd-globalchat",
+      "tags"     : "",
+      "url"      : "/category/cmd-globalchat/channel-info",
+      "date"     : "2024-04-11 05:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - 送信済みメッセージ確認",
+      "category" : "cmd-globalchat",
+      "tags"     : "",
+      "url"      : "/category/cmd-globalchat/check-post",
+      "date"     : "2024-04-11 04:50:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - ニックネーム変更",
+      "category" : "cmd-globalchat",
+      "tags"     : "",
+      "url"      : "/category/cmd-globalchat/change-nickname",
+      "date"     : "2024-04-11 04:40:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - 色変更",
+      "category" : "cmd-globalchat",
+      "tags"     : "",
+      "url"      : "/category/cmd-globalchat/change-color",
+      "date"     : "2024-04-11 04:30:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - 利用ガイド",
+      "category" : "cmd-globalchat",
+      "tags"     : "",
+      "url"      : "/category/cmd-globalchat/guide",
+      "date"     : "2024-04-11 04:20:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - グローバルチャットから切断する",
+      "category" : "cmd-globalchat",
+      "tags"     : "",
+      "url"      : "/category/cmd-globalchat/disconnect",
+      "date"     : "2024-04-11 04:10:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - 設定",
+      "category" : "help-command",
+      "tags"     : "",
+      "url"      : "/category/help-command/setting",
+      "date"     : "2024-04-11 04:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - グローバルチャットへの接続",
+      "category" : "cmd-globalchat",
+      "tags"     : "",
+      "url"      : "/category/cmd-globalchat/connect",
+      "date"     : "2024-04-11 04:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - ユーザーprefix設定",
+      "category" : "cmd-setting",
+      "tags"     : "",
+      "url"      : "/category/cmd-setting/user-prefix",
+      "date"     : "2024-04-11 02:40:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - サーバー内prefix設定",
+      "category" : "cmd-setting",
+      "tags"     : "",
+      "url"      : "/category/cmd-setting/server-prefix",
+      "date"     : "2024-04-11 02:35:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - カスタムコマンド設定",
+      "category" : "cmd-setting",
+      "tags"     : "",
+      "url"      : "/category/cmd-setting/custom-cmd",
+      "date"     : "2024-04-11 02:30:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - 参加・退出時のメッセージ設定",
+      "category" : "cmd-setting",
+      "tags"     : "",
+      "url"      : "/category/cmd-setting/action-msg",
+      "date"     : "2024-04-11 02:25:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - サーバーログ送信チャンネル設定",
+      "category" : "cmd-setting",
+      "tags"     : "",
+      "url"      : "/category/cmd-setting/log-channel",
+      "date"     : "2024-04-11 02:20:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - レベルアップ通知チャンネル設定",
+      "category" : "cmd-setting",
+      "tags"     : "",
+      "url"      : "/category/cmd-setting/level-channel",
+      "date"     : "2024-04-11 02:15:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - 機能の有効化・無効化",
+      "category" : "cmd-setting",
+      "tags"     : "",
+      "url"      : "/category/cmd-setting/feature-ctl",
+      "date"     : "2024-04-11 02:10:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - ユーザー言語設定",
+      "category" : "cmd-setting",
+      "tags"     : "",
+      "url"      : "/category/cmd-setting/user-lang",
+      "date"     : "2024-04-11 02:05:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - サーバー内言語設定",
+      "category" : "cmd-setting",
+      "tags"     : "",
+      "url"      : "/category/cmd-setting/server-lang",
+      "date"     : "2024-04-11 02:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - 招待情報",
+      "category" : "cmd-information",
+      "tags"     : "",
+      "url"      : "/category/cmd-information/invite",
+      "date"     : "2024-04-10 04:40:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - 絵文字情報",
+      "category" : "cmd-information",
+      "tags"     : "",
+      "url"      : "/category/cmd-information/emoji",
+      "date"     : "2024-04-10 04:30:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - アクティビティ情報",
+      "category" : "cmd-information",
+      "tags"     : "",
+      "url"      : "/category/cmd-information/activity",
+      "date"     : "2024-04-10 04:20:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - ロール情報",
+      "category" : "cmd-information",
+      "tags"     : "",
+      "url"      : "/category/cmd-information/role",
+      "date"     : "2024-04-10 04:10:00 +0000"
+    } ,
+  
+    {
+      "title"    : "プレミアムプランのプラン変更・キャンセル",
+      "category" : "donate",
+      "tags"     : "",
+      "url"      : "/category/donate/plan-change_cancel",
+      "date"     : "2024-04-10 04:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - チャンネル情報",
+      "category" : "cmd-information",
+      "tags"     : "",
+      "url"      : "/category/cmd-information/channel",
+      "date"     : "2024-04-10 04:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - 各種情報",
+      "category" : "help-command",
+      "tags"     : "",
+      "url"      : "/category/help-command/information",
+      "date"     : "2024-04-10 02:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - サーバー情報",
+      "category" : "cmd-information",
+      "tags"     : "",
+      "url"      : "/category/cmd-information/server",
+      "date"     : "2024-04-10 02:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "コマンド紹介 - ユーザー情報",
+      "category" : "cmd-information",
+      "tags"     : "",
+      "url"      : "/category/cmd-information/user",
+      "date"     : "2024-04-10 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "スラッシュコマンドが使えない(反映されない・候補に表示されない)",
+      "category" : "faq",
+      "tags"     : "",
+      "url"      : "/category/faq/unable-slash-command",
+      "date"     : "2024-04-09 08:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "ゲームポイントとは？",
+      "category" : "faq",
+      "tags"     : "",
+      "url"      : "/category/faq/gamepoint",
+      "date"     : "2024-04-09 08:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "システム通知",
+      "category" : "trust-and-safety",
+      "tags"     : "",
+      "url"      : "/category/trust-and-safety/system-notice",
+      "date"     : "2024-04-09 03:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "あのアイコン(バッジ)って？",
+      "category" : "faq",
+      "tags"     : "",
+      "url"      : "/category/faq/gchat-icon",
+      "date"     : "2024-04-09 02:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "サーバーへの導入",
+      "category" : "config",
+      "tags"     : "",
+      "url"      : "/category/config/join-server",
+      "date"     : "2024-04-09 02:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "レベル機能のオフ",
+      "category" : "config",
+      "tags"     : "",
+      "url"      : "/category/config/disable-level",
+      "date"     : "2024-04-09 02:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "YouTubeの再生に関して",
+      "category" : "notice",
+      "tags"     : "",
+      "url"      : "/category/notice/play-youtube",
+      "date"     : "2024-04-08 06:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "ユーザープロファイル作成時の通知",
+      "category" : "config",
+      "tags"     : "",
+      "url"      : "/category/config/user-profile-notification",
+      "date"     : "2024-04-08 06:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "思惟奈ちゃんクラウド",
+      "category" : "プレミアムプラン",
+      "tags"     : "",
+      "url"      : "/category/%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%97%E3%83%A9%E3%83%B3/%E6%80%9D%E6%83%9F%E5%A5%88%E3%81%A1%E3%82%83%E3%82%93%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89",
+      "date"     : "2023-04-19 12:25:00 +0000"
+    } ,
+  
+    {
+      "title"    : "プレミアムプラン・寄付について",
+      "category" : "プレミアムプラン",
+      "tags"     : "",
+      "url"      : "/category/%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%97%E3%83%A9%E3%83%B3/%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%97%E3%83%A9%E3%83%B3-%E5%AF%84%E4%BB%98%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+      "date"     : "2023-04-19 12:25:00 +0000"
+    } ,
+  
+    {
+      "title"    : "テスト中のシステムに起因する問題",
+      "category" : "不具合",
+      "tags"     : "",
+      "url"      : "/category/%E4%B8%8D%E5%85%B7%E5%90%88/%E3%83%86%E3%82%B9%E3%83%88%E4%B8%AD%E3%81%AE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E8%B5%B7%E5%9B%A0%E3%81%99%E3%82%8B%E5%95%8F%E9%A1%8C",
+      "date"     : "2022-12-24 22:45:00 +0000"
+    } ,
+  
+    {
+      "title"    : "プロファイル作成時の通知をオン/オフにしたいです",
+      "category" : "設定",
+      "tags"     : "",
+      "url"      : "/category/%E8%A8%AD%E5%AE%9A/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%BD%9C%E6%88%90%E6%99%82%E3%81%AE%E9%80%9A%E7%9F%A5%E3%82%92%E3%82%AA%E3%83%B3-%E3%82%AA%E3%83%95%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84%E3%81%A7%E3%81%99",
+      "date"     : "2022-12-23 09:50:00 +0000"
+    } 
+  
+]

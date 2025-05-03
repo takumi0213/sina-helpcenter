@@ -1,0 +1,164 @@
+
+
+<!DOCTYPE html>
+
+<html lang="ja" dir="ltr">
+<head>
+  <meta charset="utf-8">
+
+  
+  <title>コマンド紹介 - ボイスチャンネルへの接続 - 思惟奈ちゃんヘルプセンター</title>
+  
+
+  
+  <meta property="og:title"  content="コマンド紹介 - ボイスチャンネルへの接続 - 思惟奈ちゃんヘルプセンター" />
+  <meta name="twitter:title" content="コマンド紹介 - ボイスチャンネルへの接続 - 思惟奈ちゃんヘルプセンター">
+  
+
+  
+  <meta name="description"         content="Discordボット 思惟奈ちゃんのヘルプセンターです。何か不具合が発生した場合や、お困りの際にご利用ください。" />
+  <meta name="twitter:description" content="Discordボット 思惟奈ちゃんのヘルプセンターです。何か不具合が発生した場合や、お困りの際にご利用ください。" />
+  <meta property="og:description"  content="Discordボット 思惟奈ちゃんのヘルプセンターです。何か不具合が発生した場合や、お困りの際にご利用ください。" />
+  
+  <link rel="stylesheet" href="/assets/css/metro-all.min.css">
+  
+  <link rel="stylesheet" href="/assets/css/article.css?v=2" />
+  <link rel="stylesheet" href="/assets/css/alert.css" />
+  
+  <link rel="stylesheet" href="/assets/css/common.css?v=5">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" href="/assets/img/icon.png">
+
+  <meta property="og:url"       content="https://help.sina-chan.com/category/cmd-music/join" />
+  <meta property="og:site_name" content="思惟奈ちゃんヘルプセンター" />
+  <meta property="og:type"      content="website" />
+  <meta property="og:locale"    content="ja_JP"   />
+
+  <!-- Twitter Card (Static) -->
+  <meta name="twitter:site"  content="@sina_chan_dbot" />
+  <meta name="msapplication-TileColor" content="#1AC0AA">
+  <meta name="theme-color"             content="#1AC0AA">
+</head>
+<script src="/assets/js/simple-jekyll-search.js"></script>
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('result-list'),
+  json: '/search.json',
+  searchResultTemplate: '<div class="search-item"><a href="https://help.sina-chan.com{url}">{title}</a></div>',
+  noResultsText: '<h5>検索結果が見つかりませんでした。</h5>',
+  limit:20,
+})
+</script>
+<script src="/assets/js/metro.min.js"></script>
+<script src="/assets/js/top.js"></script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MGRVFHJV');</script>
+<!-- End Google Tag Manager -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YFS81QWYPR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YFS81QWYPR');
+</script>
+<script src="https://www.google.com/recaptcha/enterprise.js?render=6LeEPLYkAAAAAOvI3mUNkxS7CCC1nzgr9UWAfCbg"></script>
+<script>
+  function onClick(e) {
+    e.preventDefault();
+    grecaptcha.enterprise.ready(async () => {
+      const token = await grecaptcha.enterprise.execute('6LeEPLYkAAAAAOvI3mUNkxS7CCC1nzgr9UWAfCbg', {action: 'LOGIN'});
+      // IMPORTANT: The 'token' that results from execute is an encrypted response sent by
+      // reCAPTCHA Enterprise to the end user's browser.
+      // This token must be validated by creating an assessment.
+      // See https://cloud.google.com/recaptcha-enterprise/docs/create-assessment
+    });
+  }
+</script>
+
+<body>
+    <div data-role="appbar" class="navbar">
+    <a href="/" class="header-logo brand no-hover">
+        <img src="/assets/img/sinalogo.png" alt="ヘルプセンター" width="130" height="30">ヘルプセンター</a>
+    <a href="https://support.center..sina-chan.com" class="brand ml-auto">サポートセンター</a>
+</div>
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGRVFHJV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    
+    <ul class="breadcrumbs">
+        <li class="page-item"><a href="/" class="page-link">ヘルプセンター</a></li>
+        <li class="page-item"><a href="/category" class="page-link">カテゴリ一覧</a></li>
+        <li class="page-item"><a href="/category/cmd-music" class="page-link">cmd-music</a></li>
+        <li class="page-item"><a href="#" class="page-link"></a></li>
+    </ul>
+
+    <section class="main_article">
+        <h1>コマンド紹介 - ボイスチャンネルへの接続</h1>
+        <p>cmd-music | 2024/4/12</p>
+        <hr>
+        <div class="main_article_content">
+            <p><code class="language-plaintext highlighter-rouge">/music join</code></p>
+
+<p>実行者が参加しているボイスチャンネルに接続します。</p>
+
+<p>joinだけでは音楽は流れませんのでご注意ください。</p>
+
+        </div>
+        <hr>
+        <h4>解決しなかった時は...</h4>
+        <p>他の記事を検索するもしくは<a href="https://support.center.sina-chan.com">サポートセンター</a>をご利用ください。<br>障害・メンテナンスの情報は<a href="https://status.sina-chan.com">ステータスページ</a>にてご確認ください。</p>
+        <hr>
+        <h4>コメントを残す</h4>
+        <script src="https://giscus.app/client.js"
+            data-repo="SInaKitagami/sina-helpcenter"
+            data-repo-id="R_kgDOIplNjg"
+            data-category="チャット"
+            data-category-id="DIC_kwDOIplNjs4CTYyE"
+            data-mapping="title"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="light_tritanopia"
+            data-lang="ja"
+            crossorigin="anonymous"
+            async
+        >
+        </script>
+    </section>
+    <div class="spacer" style="height:100px;"></div>
+
+<hr>
+<footer>
+    <div class="row flex-align-center">
+        <div class="cell-md-5 text-center-md text-left">
+            <ul class="inline-list reduce-2">
+                <li>© 2020-2023, Team Sina. | Last Build: 44f5f20</li>
+            </ul>
+        </div>
+        <div class="cell-md-2 text-center">
+            <div>
+                <a href="" class="no-decor"><img src="/assets/img/sinalogo.png" alt="思惟奈ちゃんヘルプセンター" width="130" height="30"></a>
+            </div>
+        </div>
+        <div class="cell-md-5 text-center-md text-left">
+            <ul class="inline-list reduce-2">
+                <li><a href="https://home.sina-chan.com">公式サイト</a></li>
+                <li><a href="https://home.sina-chan.com/discord">サポートサーバー</a></li>
+                <li><a href="https://home.sina-chan.com/legal">各種規約</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

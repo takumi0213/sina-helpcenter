@@ -1,0 +1,23 @@
+/*
+
+article.css
+For: /category.html
+
+*/
+.main_category{
+    width:87%;
+    margin:0 auto;
+}
+.breadcrumbs{
+    margin-top:57px;
+}
+.category{
+    margin-bottom:10px;
+    padding:20px;
+}
+.read{
+    text-align:right;
+}
+.read a{
+    color:#000;
+}

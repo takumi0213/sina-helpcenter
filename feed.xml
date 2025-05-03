@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja-jp"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://help.sina-chan.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://help.sina-chan.com/" rel="alternate" type="text/html" hreflang="ja-jp" /><updated>2025-05-03T15:06:43+00:00</updated><id>https://help.sina-chan.com/feed.xml</id><title type="html">思惟奈ちゃんヘルプセンター</title><subtitle>Discordボット 思惟奈ちゃんのヘルプセンターです。何か不具合が発生した場合や、お困りの際にご利用ください。</subtitle><entry><title type="html">Version 4.0.1</title><link href="https://help.sina-chan.com/category/update-note/v4.0.1" rel="alternate" type="text/html" title="Version 4.0.1" /><published>2025-05-01T16:00:00+00:00</published><updated>2025-05-01T16:00:00+00:00</updated><id>https://help.sina-chan.com/category/update-note/v4.0.1</id><content type="html" xml:base="https://help.sina-chan.com/category/update-note/v4.0.1"><![CDATA[<h2 id="version-401-update-note">Version 4.0.1 Update Note</h2>
+
+<div class="markdown-alert markdown-alert-note" dir="auto"><p class="markdown-alert-title" dir="auto"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p dir="auto" class="pInfo">
+App Build: 44b65ac
+</p></div>
+
+<h3 id="プログラムの変更">プログラムの変更</h3>
+
+<ul>
+  <li>書式の統一を実施しました。</li>
+  <li>コードの整理を実施しました。</li>
+  <li>システム管理者専用コマンドのエラー文を変更しました。</li>
+</ul>
+
+<h3 id="不具合の修正">不具合の修正</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">bot.py</code>で発生していた不具合を修正しました。</li>
+  <li><code class="language-plaintext highlighter-rouge">textlocker</code>で発生していた不具合を修正しました。(機能削除)</li>
+</ul>]]></content><author><name></name></author><category term="update-note" /><summary type="html"><![CDATA[Version 4.0.1 Update Note]]></summary></entry><entry><title type="html">Update Note公開のお知らせ</title><link href="https://help.sina-chan.com/category/notice/update-note" rel="alternate" type="text/html" title="Update Note公開のお知らせ" /><published>2025-05-01T14:00:00+00:00</published><updated>2025-05-01T14:00:00+00:00</updated><id>https://help.sina-chan.com/category/notice/update-note</id><content type="html" xml:base="https://help.sina-chan.com/category/notice/update-note"><![CDATA[<p>今月より、サーバのアップデート・アプリのアップデート時のUpdate Noteの配信を開始します。</p>
+
+<p>4月20日にアップデートを行った、Version 4.0.0よりUpdate Noteの配信を行っています。</p>
+
+<p>※バージョン表記に関して
+以下の方法でバージョン管理を実施します。</p>
+<ul>
+  <li>不具合の修正や軽微な更新など小規模のアップデートは、小数点第2位の値が変更されます。(Ver1.0→Ver1.0.1)</li>
+  <li>新機能の追加や仕様の変更など中規模のアップデートは、小数点第1位の値が変更されます。(Ver1.0.0→Ver1.1.0)</li>
+  <li>サーバのインフラ更新やアプリの大型アップデートなど大規模なアップデートは、<code class="language-plaintext highlighter-rouge">Ver</code>に続く値が変更されます。(Ver1.0.0→Ver2.0.0)</li>
+</ul>
+
+<p>アップデートノートは<a href="https://help.sina-chan.com/category/update-note/" class="a-orange">こちらより</a>ご確認ください。</p>]]></content><author><name></name></author><category term="notice" /><summary type="html"><![CDATA[今月より、サーバのアップデート・アプリのアップデート時のUpdate Noteの配信を開始します。]]></summary></entry><entry><title type="html">Version 4.0.0</title><link href="https://help.sina-chan.com/category/update-note/v4.0.0" rel="alternate" type="text/html" title="Version 4.0.0" /><published>2025-04-20T10:00:00+00:00</published><updated>2025-04-20T10:00:00+00:00</updated><id>https://help.sina-chan.com/category/update-note/v4.0.0</id><content type="html" xml:base="https://help.sina-chan.com/category/update-note/v4.0.0"><![CDATA[<h2 id="version-400-update-note">Version 4.0.0 Update Note</h2>
+
+<div class="markdown-alert markdown-alert-note" dir="auto"><p class="markdown-alert-title" dir="auto"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p dir="auto" class="pInfo">
+App Build: ad31a0b
+</p></div>
+
+<h3 id="サーバリプレイス">サーバリプレイス</h3>
+
+<ul>
+  <li>アプリ実行環境を新サーバへ移行しました。</li>
+  <li>データベースサーバを新サーバへ移行しました。</li>
+  <li>サービス監視サーバを新サーバへ移行しました。</li>
+  <li>アプリサーバ・データベースサーバ・サービス監視サーバのOSを更新しました。<br />Ubuntu 22.04 LTS → Ubuntu 24.04 LTS</li>
+  <li>Pythonのバージョンを更新しました。<br />Python 3.10.12 → Python 3.12.3</li>
+  <li>データベース管理環境を更新しました。</li>
+  <li>開発環境を更新しました。(元アプリサーバへ移行)</li>
+</ul>
+
+<h3 id="不具合の修正">不具合の修正</h3>
+
+<ul>
+  <li>サーバー参加直後のユーザが<code class="language-plaintext highlighter-rouge">level</code>を実行した場合に発生する不具合を修正しました。</li>
+  <li>ロールパネルが存在しない場合に<code class="language-plaintext highlighter-rouge">move_panel</code>を実行した際に発生する可能性がある不具合を修正しました。</li>
+  <li><code class="language-plaintext highlighter-rouge">pupdate</code>を実行した場合に発生する不具合を修正しました。</li>
+  <li>コマンドの実行エラーを正確に補足できない不具合を修正しました。</li>
+  <li>その他、いくつかの不具合を修正しました。</li>
+</ul>]]></content><author><name></name></author><category term="update-note" /><summary type="html"><![CDATA[Version 4.0.0 Update Note]]></summary></entry><entry><title type="html">OpenSSHの脆弱性(CVE-2024-6387)に関して</title><link href="https://help.sina-chan.com/category/notice/openssh-cve" rel="alternate" type="text/html" title="OpenSSHの脆弱性(CVE-2024-6387)に関して" /><published>2024-07-03T14:00:00+00:00</published><updated>2024-07-03T14:00:00+00:00</updated><id>https://help.sina-chan.com/category/notice/openssh-cve</id><content type="html" xml:base="https://help.sina-chan.com/category/notice/openssh-cve"><![CDATA[<p>先日Xでも話題になっておりましたが、OpenSSHにおける重大かつ緊急性の高い脆弱性情報が発表されました。(<a href="https://www.cve.org/CVERecord?id=CVE-2024-6387" class="a-orange">CVE-2024-6387</a>)</p>
+
+<p>本脆弱性の影響は以下の通りです。</p>
+
+<ul>
+  <li>リモートからroot権限(Administrator)にて任意のコードが実行される可能性</li>
+  <li>リモートからsshd(SSH接続のための常駐プログラム)のクラッシュを引き起こされる可能性</li>
+</ul>
+
+<p>本チームでは本脆弱性の公開後、<a href="https://status.sina-chan.com/cly2zcv3w21918b5oaen5wfikh" class="a-orange">緊急メンテナンス</a>を実施し、全サーバーにて脆弱性に対する当該ソフトウェアのアップデートを実施しました。</p>
+
+<p>つきましては、本チームにて使用している全てのサーバーにおきまして、本脆弱性への対応を完了しております。ご安心してご利用ください。</p>
+
+<p>今後とも思椎奈ちゃんをよろしくお願いいたします。</p>]]></content><author><name></name></author><category term="notice" /><summary type="html"><![CDATA[先日Xでも話題になっておりましたが、OpenSSHにおける重大かつ緊急性の高い脆弱性情報が発表されました。(CVE-2024-6387)]]></summary></entry><entry><title type="html">コマンド紹介 - レベルカード</title><link href="https://help.sina-chan.com/category/cmd-level/level-card" rel="alternate" type="text/html" title="コマンド紹介 - レベルカード" /><published>2024-05-08T01:00:00+00:00</published><updated>2024-05-08T01:00:00+00:00</updated><id>https://help.sina-chan.com/category/cmd-level/level-card</id><content type="html" xml:base="https://help.sina-chan.com/category/cmd-level/level-card"><![CDATA[<p><code class="language-plaintext highlighter-rouge">/level card</code>または<code class="language-plaintext highlighter-rouge">/level card tu:[ユーザー選択]</code></p>
+
+<p>レベルカードを表示します。</p>
+
+<p><code class="language-plaintext highlighter-rouge">tu</code>オプションを使用した場合、指定したユーザーのレベルカードを確認することができます。</p>]]></content><author><name></name></author><category term="cmd-level" /><summary type="html"><![CDATA[/level cardまたは/level card tu:[ユーザー選択]]]></summary></entry><entry><title type="html">コマンド紹介 - ボリューム調整</title><link href="https://help.sina-chan.com/category/cmd-music/volume" rel="alternate" type="text/html" title="コマンド紹介 - ボリューム調整" /><published>2024-04-12T02:20:00+00:00</published><updated>2024-04-12T02:20:00+00:00</updated><id>https://help.sina-chan.com/category/cmd-music/volume</id><content type="html" xml:base="https://help.sina-chan.com/category/cmd-music/volume"><![CDATA[<p><code class="language-plaintext highlighter-rouge">/music volume vol:[0~100%]</code></p>
+
+<p>指定した値にボリュームを調整します。</p>]]></content><author><name></name></author><category term="cmd-music" /><summary type="html"><![CDATA[/music volume vol:[0~100%]]]></summary></entry><entry><title type="html">コマンド紹介 - スキップ</title><link href="https://help.sina-chan.com/category/cmd-music/skip" rel="alternate" type="text/html" title="コマンド紹介 - スキップ" /><published>2024-04-12T02:15:00+00:00</published><updated>2024-04-12T02:15:00+00:00</updated><id>https://help.sina-chan.com/category/cmd-music/skip</id><content type="html" xml:base="https://help.sina-chan.com/category/cmd-music/skip"><![CDATA[<p><code class="language-plaintext highlighter-rouge">/music skip</code>または<code class="language-plaintext highlighter-rouge">/music skip index:[項目の番号]</code></p>
+
+<p>音楽をスキップします。</p>
+
+<p>2つ以上スキップしたい場合は<code class="language-plaintext highlighter-rouge">/music queue</code>から再生キューを確認の上、<code class="language-plaintext highlighter-rouge">index</code>で番号を入力することで複数スキップが可能です。</p>]]></content><author><name></name></author><category term="cmd-music" /><summary type="html"><![CDATA[/music skipまたは/music skip index:[項目の番号]]]></summary></entry><entry><title type="html">コマンド紹介 - 再生キューのシャッフル</title><link href="https://help.sina-chan.com/category/cmd-music/shuffle" rel="alternate" type="text/html" title="コマンド紹介 - 再生キューのシャッフル" /><published>2024-04-12T02:10:00+00:00</published><updated>2024-04-12T02:10:00+00:00</updated><id>https://help.sina-chan.com/category/cmd-music/shuffle</id><content type="html" xml:base="https://help.sina-chan.com/category/cmd-music/shuffle"><![CDATA[<p><code class="language-plaintext highlighter-rouge">/music shuffle</code></p>
+
+<p>再生キューをシャッフルします。</p>]]></content><author><name></name></author><category term="cmd-music" /><summary type="html"><![CDATA[/music shuffle]]></summary></entry><entry><title type="html">コマンド紹介 - 再生キューから項目の削除</title><link href="https://help.sina-chan.com/category/cmd-music/remove" rel="alternate" type="text/html" title="コマンド紹介 - 再生キューから項目の削除" /><published>2024-04-12T02:05:00+00:00</published><updated>2024-04-12T02:05:00+00:00</updated><id>https://help.sina-chan.com/category/cmd-music/remove</id><content type="html" xml:base="https://help.sina-chan.com/category/cmd-music/remove"><![CDATA[<p><code class="language-plaintext highlighter-rouge">/music remove index:[項目の番号]</code></p>
+
+<p>再生キューから音楽を削除します。</p>
+
+<p><code class="language-plaintext highlighter-rouge">index</code>の入力には<code class="language-plaintext highlighter-rouge">/music queue</code>で再生キューの情報を確認する必要があります。</p>]]></content><author><name></name></author><category term="cmd-music" /><summary type="html"><![CDATA[/music remove index:[項目の番号]]]></summary></entry><entry><title type="html">コマンド紹介 - 再生キューの確認</title><link href="https://help.sina-chan.com/category/cmd-music/queue" rel="alternate" type="text/html" title="コマンド紹介 - 再生キューの確認" /><published>2024-04-12T02:00:00+00:00</published><updated>2024-04-12T02:00:00+00:00</updated><id>https://help.sina-chan.com/category/cmd-music/queue</id><content type="html" xml:base="https://help.sina-chan.com/category/cmd-music/queue"><![CDATA[<p><code class="language-plaintext highlighter-rouge">/music queue pg:[ページ数]</code></p>
+
+<p>再生キューを確認します。</p>
+
+<p>1ページに5つ表示できるため、はじめから2ページ目以降を確認したい場合は<code class="language-plaintext highlighter-rouge">pg</code>オプションを使用してください。</p>]]></content><author><name></name></author><category term="cmd-music" /><summary type="html"><![CDATA[/music queue pg:[ページ数]]]></summary></entry></feed>

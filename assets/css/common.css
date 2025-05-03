@@ -1,0 +1,58 @@
+/*
+
+common.css
+For all pages.
+
+*/
+:root{
+    --color_twitter:#1DA1F2;
+    --color_facebook:#4267B2;
+}
+
+
+.navbar{
+    background:#fff;
+}
+.header{
+    background: #1AC0AA;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+
+    height:500px;
+    position: relative; 
+}
+
+.header .card{
+    background:none!important;
+    border:0;
+    max-width:980px;
+
+    position: absolute;        
+    top: 50%;                   
+    left: 50%;                 
+    transform: translateY(-50%) translateX(-50%); 
+}
+
+.search{
+    color:#fff;
+    text-align:center;
+}
+.search .input{
+    height:52px;
+    border-radius:20px;
+}
+.search .input input{
+    height:50px;
+    border-radius:20px;
+}
+.search .input .button{
+    height:50px;
+}
+
+footer{
+    margin-top:20px;
+}
+footer ul{
+    margin-right:0;
+}

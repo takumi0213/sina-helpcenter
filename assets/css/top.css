@@ -1,0 +1,52 @@
+/*
+
+top.css
+For: /index.html
+
+*/
+.main_categories{
+    width:87%;
+    margin:0 auto;
+    margin-top:30px;
+}
+
+.main_categories h3,p{
+    text-align: center;
+}
+
+.search-list{
+    display:none;
+    margin: 0;
+    padding: 0;
+    list-style: none inside;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    background-color: #fff;
+    height: auto;
+    border: 1px solid #dfdfdf;
+    z-index: 3;
+    border-radius: 20px;
+    color:#000;
+    text-align: center;
+}
+.search-item{
+    margin:20px;
+    padding:10px;
+    border-bottom:1px solid #999;
+}
+
+.search-item p{
+    text-align: left!important;
+}
+
+.category_fg{
+    color:#6f6f6f!important;
+}
+.more{
+    margin:0 auto;
+    width:98%!important;
+}
