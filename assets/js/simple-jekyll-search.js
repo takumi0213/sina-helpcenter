@@ -35,7 +35,6 @@
     })
   }
   
-  'use strict';
   
   function fuzzysearch (needle, haystack) {
     var tlen = haystack.length;
@@ -60,7 +59,7 @@
   
   var _$fuzzysearch_1 = fuzzysearch;
   
-  'use strict'
+  
   
   /* removed: const _$fuzzysearch_1 = require('fuzzysearch') */;
   
@@ -72,7 +71,6 @@
     }
   }
   
-  'use strict'
   
   var _$LiteralSearchStrategy_6 = new LiteralSearchStrategy()
   
@@ -89,7 +87,6 @@
     }
   }
   
-  'use strict'
   
   var _$Repository_4 = {
     put: put,
@@ -200,8 +197,6 @@
   
   /* globals ActiveXObject:false */
   
-  'use strict'
-  
   var _$JSONLoader_2 = {
     load: load
   }
@@ -229,7 +224,6 @@
     return window.XMLHttpRequest ? new window.XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP')
   }
   
-  'use strict'
   
   var _$OptionsValidator_3 = function OptionsValidator (params) {
     if (!validateParams(params)) {
@@ -263,8 +257,6 @@
       return typeof params.required !== 'undefined' && params.required instanceof Array
     }
   }
-  
-  'use strict'
   
   var _$utils_9 = {
     merge: merge,
